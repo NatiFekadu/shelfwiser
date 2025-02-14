@@ -1,33 +1,56 @@
-### Shelfwiser
+# Shelfwiser Library Management Application
 
-updated library management
+Shelfwiser is a comprehensive library management application built using the Frappe framework. It helps libraries manage their books, members, and transactions efficiently.
 
-### Installation
+<!-- ## Features
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+- **Book Management**: Add, update, and delete book records.
+- **Member Management**: Register new members and manage existing ones.
+- **Transaction Management**: Issue and return books, track due dates, and manage fines. -->
+<!-- - **Reports**: Generate various reports for books, members, and transactions. -->
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app shelfwiser
-```
+## Installation
 
-### Contributing
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/shelfwiser.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd shelfwiser
+    ```
+3. Install the required dependencies:
+    ```bash
+    bench init
+    ```
+4. Set up the Frappe site:
+    ```bash
+    bench new-site shelfwiser.local
+    ```
+5. Install the Shelfwiser app:
+    ```bash
+    bench get-app shelfwiser
+    bench --site shelfwiser.local install-app shelfwiser
+    ```
+6. Start the Frappe development server:
+    ```bash
+    bench start
+    ```
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## Usage
 
-```bash
-cd apps/shelfwiser
-pre-commit install
-```
+1. Open your web browser and navigate to `http://localhost:8000`.
+2. Log in with your credentials.
+3. Use the dashboard to manage books, members, and transactions.
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+## Contributing
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+We welcome contributions to Shelfwiser! Please fork the repository and submit pull requests.
 
-### License
+## License
 
-mit
+Shelfwiser is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or support, please contact us at Natifekadu808@gmail.com
