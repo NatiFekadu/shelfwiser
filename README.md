@@ -13,7 +13,7 @@ Shelfwiser is a comprehensive library management application built using the Fra
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/shelfwiser.git
+    git clone https://github.com/Natifekadu/shelfwiser.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -39,7 +39,7 @@ Shelfwiser is a comprehensive library management application built using the Fra
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:8000`.
+1. Open your web browser and navigate to `http://library.localhost:8000/`.
 2. Log in with your credentials.
 3. Use the dashboard to manage books, members, and transactions.
 
